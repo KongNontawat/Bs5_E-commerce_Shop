@@ -1,0 +1,9 @@
+@import 'main.css';
+
+.footer {
+	background-color: var(--orange);
+}
+
+.footer a {
+	color: white;
+}

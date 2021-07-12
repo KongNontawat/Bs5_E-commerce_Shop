@@ -1,0 +1,35 @@
+@import 'main.css';
+
+
+.top_header,
+.top_header .row {
+	height: 2.6rem;
+	font-size: 0.9rem;
+}
+
+.header .navbar .nav_right ul li a {
+	color: var(--grey3) !important;
+}
+
+.header .navbar ul li a {
+	color: var(--grey3) !important;
+	font-weight: 400;
+}
+
+.header .navbar ul li:first-child a {
+	font-weight: 500;
+}
+.header .navbar .nav_right ul li a:hover {
+	color: var(--orange) !important;
+}
+
+.header .navbar .nav_center ul li a,
+.header .navbar .navbar-bland,
+.header .navbar .nav_right ul li a {
+	transition: all 0.2s;
+}
+
+.header .navbar .nav_center ul li a:hover,
+.header .navbar .navbar-bland:hover {
+	color: var(--orange) !important;
+}
