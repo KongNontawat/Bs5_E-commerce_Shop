@@ -1,0 +1,19 @@
+@import 'main.css';
+@import 'haeder_nav.css';
+@import 'footer.css';
+
+.content img {
+	width: 5.2rem;
+	height: 5rem;
+	object-fit: cover;
+}
+
+input[type="number"] {
+	width: 4rem;
+}
+
+@media only screen and (max-width: 330px) {
+	input[type="number"] {
+	width: 2.5rem;
+}
+}
