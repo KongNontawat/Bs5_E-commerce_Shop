@@ -1,0 +1,11 @@
+@import 'main.css';
+@import 'haeder_nav.css';
+@import 'footer.css';
+
+.login_form a.link {
+	color: blue;
+}
+
+form input::placeholder {
+	font-size: 1.1rem;
+}
